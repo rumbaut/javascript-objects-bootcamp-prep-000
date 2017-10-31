@@ -1,4 +1,4 @@
-var meals = {
+var playlist = {
   'breakfast' : 'wraps',
   'lunch' : 'shrimps',
   'dinner' : 'lobster'
