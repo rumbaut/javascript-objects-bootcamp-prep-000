@@ -1,5 +1,6 @@
 var playlist = {
-  'breakfast' : 'wraps',
-  'lunch' : 'shrimps',
-  'dinner' : 'lobster'
+  
 };
+ function updatePlaylist(playlist, artistName, songTitle){
+   Object.assign(playlist, { 'artistName': artistName }, {'songTitle': songTitle});
+ }
